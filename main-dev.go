@@ -18,6 +18,7 @@ package main
 
 import (
 	"github.com/go-enjin/be/features/fs/locals/content"
+	"github.com/go-enjin/be/features/fs/locals/menu"
 	"github.com/go-enjin/be/features/fs/locals/public"
 	"github.com/go-enjin/be/pkg/feature"
 	"github.com/go-enjin/be/pkg/log"
@@ -47,6 +48,13 @@ func ppaAptRepoFeature() (f feature.Feature) {
 func ppaContentFeature() (f feature.Feature) {
 	f = content.New().
 		MountPath("/", "content").
+		Make()
+	return
+}
+
+func ppaMenusFeature() (f feature.Feature) {
+	f = menu.New().
+		MountPath("menus", "menus").
 		Make()
 	return
 }

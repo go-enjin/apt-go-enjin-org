@@ -20,6 +20,7 @@ import (
 	"embed"
 
 	"github.com/go-enjin/be/features/fs/embeds/content"
+	"github.com/go-enjin/be/features/fs/embeds/menu"
 	publicEmbed "github.com/go-enjin/be/features/fs/embeds/public"
 	publicLocal "github.com/go-enjin/be/features/fs/locals/public"
 	"github.com/go-enjin/be/pkg/feature"
@@ -61,6 +62,16 @@ var contentFs embed.FS
 func ppaContentFeature() (f feature.Feature) {
 	f = content.New().
 		MountPathFs("/", "content", contentFs).
+		Make()
+	return
+}
+
+//go:embed menus/**
+var menusFs embed.FS
+
+func ppaMenusFeature() (f feature.Feature) {
+	f = menu.New().
+		MountPathFs("menus", "menus", menusFs).
 		Make()
 	return
 }

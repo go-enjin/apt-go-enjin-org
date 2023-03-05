@@ -94,6 +94,7 @@ func main() {
 		AddFeature(ppaPublicFeature()).
 		AddFeature(ppaAptRepoFeature()).
 		AddFeature(ppaContentFeature()).
+		AddFeature(ppaMenusFeature()).
 		AddFeature(dpkgdeb.New().
 			MountPath("/dpkg-deb/"+UseAptFlavour, UseBasePath+"/"+UseAptFlavour).
 			Make(),
