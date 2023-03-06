@@ -4,9 +4,9 @@ go 1.20
 
 require (
 	github.com/fvbommel/sortorder v1.0.2
-	github.com/go-enjin/be v0.0.0-20230304200931-88fdca012d95
+	github.com/go-enjin/be v0.0.0-20230306185847-fc7be4685066
 	github.com/go-enjin/golang-org-x-text v0.0.0-20230219204830-4f2b7b481f16
-	github.com/go-enjin/semantic-enjin-theme v0.0.0-20230304201026-080c54f1f9d4
+	github.com/go-enjin/semantic-enjin-theme v0.0.0-20230306185931-91deab90d751
 	github.com/urfave/cli/v2 v2.14.1
 )
 
