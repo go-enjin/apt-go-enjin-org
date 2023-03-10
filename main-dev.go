@@ -37,6 +37,7 @@ func ppaPublicFeature() (f feature.Feature) {
 	f = public.New().
 		MountPath("/", "public").
 		MountPath("/"+UseAptFlavour, UseBasePath+"/"+UseAptFlavour).
+		SetRegexCacheControl("/dists/", "no-store").
 		Make()
 	return
 }
