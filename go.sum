@@ -97,6 +97,8 @@ github.com/go-enjin/golang-org-x-text v0.0.0-20230219204830-4f2b7b481f16 h1:zTYp
 github.com/go-enjin/golang-org-x-text v0.0.0-20230219204830-4f2b7b481f16/go.mod h1:drs2gdlsfKSimrkS5j//UTGEMEWcLyX9M3frtW/dP+k=
 github.com/go-enjin/semantic-enjin-theme v0.0.0-20230329213701-22de20eb9550 h1:cDstNJ60+RohhiuOCYoVMCkkP3c2pNVfgCKPd9Ntc2M=
 github.com/go-enjin/semantic-enjin-theme v0.0.0-20230329213701-22de20eb9550/go.mod h1:ayB1G7bul+MxclJ/dy9m/pdP+LU4y4f/skMj9G3ZxBw=
+github.com/go-enjin/starter-apt-enjin v0.0.0-20230330190341-97789ccd8800 h1:um3bY1KCbP8NcOLUKkNyg5ldlOtspHaOuPbcm35yItM=
+github.com/go-enjin/starter-apt-enjin v0.0.0-20230330190341-97789ccd8800/go.mod h1:5qmwUQPcn5VoB3/jNZulsFG04KhVLrm89k37ZqGH58o=
 github.com/go-kit/log v0.1.0/go.mod h1:zbhenjAZHb184qTLMA9ZjW7ThYL0H2mk7Q6pNt4vbaY=
 github.com/go-logfmt/logfmt v0.5.0/go.mod h1:wCYkCAKZfumFQihp8CzCvQ3paCTfi41vtzG1KdI/P7A=
 github.com/go-playground/assert/v2 v2.0.1 h1:MsBgLAaY856+nPRTKrp3/OZK38U/wa0CcBYNjji3q3A=
@@ -461,7 +463,6 @@ gopkg.in/errgo.v2 v2.1.0/go.mod h1:hNsd1EY+bozCKY1Ytp96fpM3vjJbqLJn88ws8XvfDNI=
 gopkg.in/inconshreveable/log15.v2 v2.0.0-20180818164646-67afb5ed74ec/go.mod h1:aPpfJ7XW+gOuirDoZ8gHhLh3kZ1B08FtV2bbmy7Jv3s=
 gopkg.in/ini.v1 v1.38.2/go.mod h1:pNLf8WUiyNEtQjuu5G5vTm06TEv9tsIgeAvK8hOrP4k=
 gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 h1:uRGJdciOHaEIrze2W8Q3AKkepLTh2hOroT7a+7czfdQ=
-gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7/go.mod h1:dt/ZhP58zS4L8KSrWDmTeBkI65Dw0HsyUHuEVlX15mw=
 gopkg.in/yaml.v2 v2.2.2/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
 gopkg.in/yaml.v2 v2.2.8/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
 gopkg.in/yaml.v2 v2.4.0 h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY=
