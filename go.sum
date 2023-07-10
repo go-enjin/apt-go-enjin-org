@@ -170,8 +170,8 @@ github.com/go-enjin/golang-org-x-text v0.0.0-20230219204830-4f2b7b481f16 h1:zTYp
 github.com/go-enjin/golang-org-x-text v0.0.0-20230219204830-4f2b7b481f16/go.mod h1:drs2gdlsfKSimrkS5j//UTGEMEWcLyX9M3frtW/dP+k=
 github.com/go-enjin/semantic-enjin-theme v0.2.10 h1:7oV/+N5CvcSwI0xhbutO0msmLrTXoLUOw0Qlt78Hscw=
 github.com/go-enjin/semantic-enjin-theme v0.2.10/go.mod h1:EF0nZFDj7m/b0AkgvhDHlo7BO5YHQg5OBeBYUot752k=
-github.com/go-enjin/starter-apt-enjin v0.0.0-20230710203352-b4ad438d659c h1:QjA+YhQt8/T47eVVBhBDZHwFcJPAnZvoM7sLhdwpQks=
-github.com/go-enjin/starter-apt-enjin v0.0.0-20230710203352-b4ad438d659c/go.mod h1:DiLty0iylf0TRWJHAVbE28Tz4WUIdu2qXTMy6Q5/OJc=
+github.com/go-enjin/starter-apt-enjin v0.0.0-20230710204500-d6bc9d19eb9a h1:N9Qmq7etbRj5q4tM/5cwATSugzYcpumtA0gzvrVG23A=
+github.com/go-enjin/starter-apt-enjin v0.0.0-20230710204500-d6bc9d19eb9a/go.mod h1:DiLty0iylf0TRWJHAVbE28Tz4WUIdu2qXTMy6Q5/OJc=
 github.com/go-gl/glfw v0.0.0-20190409004039-e6da0acd62b1/go.mod h1:vR7hzQXu2zJy9AVAgeJqvqgH9Q5CA+iKCZ2gyEVpxRU=
 github.com/go-gl/glfw/v3.3/glfw v0.0.0-20191125211704-12ad95a8df72/go.mod h1:tQ2UAYgL5IevRw8kRxooKSPJfGvJ9fJQFa0TUsXzTg8=
 github.com/go-gl/glfw/v3.3/glfw v0.0.0-20200222043503-6f7a984d4dc4/go.mod h1:tQ2UAYgL5IevRw8kRxooKSPJfGvJ9fJQFa0TUsXzTg8=

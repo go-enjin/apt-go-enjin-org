@@ -6,7 +6,7 @@ require (
 	github.com/go-enjin/be v0.2.10
 	github.com/go-enjin/golang-org-x-text v0.0.0-20230219204830-4f2b7b481f16
 	github.com/go-enjin/semantic-enjin-theme v0.2.10
-	github.com/go-enjin/starter-apt-enjin v0.0.0-20230710203352-b4ad438d659c
+	github.com/go-enjin/starter-apt-enjin v0.0.0-20230710204500-d6bc9d19eb9a
 )
 
 require (
