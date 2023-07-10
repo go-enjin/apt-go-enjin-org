@@ -17,9 +17,9 @@
 package main
 
 import (
-	"github.com/go-enjin/be/features/fs/locals/content"
-	"github.com/go-enjin/be/features/fs/locals/menu"
-	"github.com/go-enjin/be/features/fs/locals/public"
+	"github.com/go-enjin/be/features/fs/content"
+	"github.com/go-enjin/be/features/fs/menu"
+	"github.com/go-enjin/be/features/fs/public"
 	"github.com/go-enjin/be/pkg/feature"
 	"github.com/go-enjin/be/pkg/log"
 	"github.com/go-enjin/be/pkg/theme"
@@ -27,7 +27,7 @@ import (
 
 func ppaEnjinTheme() (t *theme.Theme) {
 	var err error
-	if t, err = theme.NewLocal("themes/apt-enjin"); err != nil {
+	if t, err = theme.NewLocal("apt-enjin", "themes/apt-enjin"); err != nil {
 		log.FatalF("error loading local apt-enjin theme: %v", err)
 	}
 	return
@@ -35,8 +35,8 @@ func ppaEnjinTheme() (t *theme.Theme) {
 
 func ppaPublicFeature() (f feature.Feature) {
 	f = public.New().
-		MountPath("/", "public").
-		MountPath("/"+UseAptFlavour, UseBasePath+"/"+UseAptFlavour).
+		MountLocalPath("/", "public").
+		MountLocalPath("/"+UseAptFlavour, UseBasePath+"/"+UseAptFlavour).
 		SetRegexCacheControl("/dists/", "no-store").
 		Make()
 	return
@@ -48,14 +48,16 @@ func ppaAptRepoFeature() (f feature.Feature) {
 
 func ppaContentFeature() (f feature.Feature) {
 	f = content.New().
-		MountPath("/", "content").
+		MountLocalPath("/", "content").
+		AddToIndexProviders("pages-pql").
+		AddToSearchProviders("bleve-fts").
 		Make()
 	return
 }
 
 func ppaMenusFeature() (f feature.Feature) {
 	f = menu.New().
-		MountPath("menus", "menus").
+		MountLocalPath("menus", "menus").
 		Make()
 	return
 }
