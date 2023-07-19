@@ -112,7 +112,7 @@ BUILD_LDFLAGS = ${EXTRA_LDFLAGS}
 DEV_BUILD_LDFLAGS = ${EXTRA_LDFLAGS}
 
 # Custom go.mod locals
-GOPKG_KEYS = SET GOXT DJHT SAE
+GOPKG_KEYS = SET DJHT SAE
 
 # Go-Enjin starter-apt-enjin
 SAE_GO_PACKAGE = github.com/go-enjin/starter-apt-enjin
@@ -122,7 +122,7 @@ SAE_LOCAL_PATH = ../starter-apt-enjin
 SET_GO_PACKAGE = github.com/go-enjin/semantic-enjin-theme
 SET_LOCAL_PATH = ../semantic-enjin-theme
 
-# Go-Enjin gotext package
+# Go-Enjin gotext package (pre-release updates only)
 GOXT_GO_PACKAGE = github.com/go-enjin/golang-org-x-text
 GOXT_LOCAL_PATH = ../golang-org-x-text
 
