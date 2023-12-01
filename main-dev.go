@@ -17,6 +17,7 @@
 package main
 
 import (
+	apt "github.com/go-enjin/apt-enjin-theme"
 	semantic "github.com/go-enjin/semantic-enjin-theme"
 
 	"github.com/go-enjin/be/features/fs/content"
@@ -28,8 +29,8 @@ import (
 func init() {
 	fThemes = themes.New().
 		Include(semantic.Theme()).
-		LocalTheme("themes/apt-enjin").
-		SetTheme("apt-enjin").
+		Include(apt.Theme()).
+		SetTheme(apt.Name).
 		Make()
 
 	fMenus = menu.New().

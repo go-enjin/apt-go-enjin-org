@@ -19,6 +19,7 @@ package main
 import (
 	"embed"
 
+	apt "github.com/go-enjin/apt-enjin-theme"
 	semantic "github.com/go-enjin/semantic-enjin-theme"
 
 	"github.com/go-enjin/be/features/fs/content"
@@ -26,9 +27,6 @@ import (
 	"github.com/go-enjin/be/features/fs/public"
 	"github.com/go-enjin/be/features/fs/themes"
 )
-
-//go:embed themes/**
-var themeFs embed.FS
 
 //go:embed menus/**
 var menusFs embed.FS
@@ -42,8 +40,8 @@ var contentFs embed.FS
 func init() {
 	fThemes = themes.New().
 		Include(semantic.Theme()).
-		EmbedTheme("themes/apt-enjin", themeFs).
-		SetTheme("apt-enjin").
+		Include(apt.Theme()).
+		SetTheme(apt.Name).
 		Make()
 
 	fMenus = menu.New().
