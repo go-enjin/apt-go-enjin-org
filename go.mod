@@ -5,11 +5,11 @@ go 1.21
 toolchain go1.21.0
 
 require (
-	github.com/go-enjin/apt-enjin-theme v0.0.0-20231201001126-fff1d61ebbd1
-	github.com/go-enjin/be v0.5.2
+	github.com/go-enjin/apt-enjin-theme v0.5.4
+	github.com/go-enjin/be v0.5.4
 	github.com/go-enjin/golang-org-x-text v0.12.1-enjin.2
-	github.com/go-enjin/semantic-enjin-theme v0.5.2
-	github.com/go-enjin/starter-apt-enjin v0.0.0-20231201002442-7cae27d2b5de
+	github.com/go-enjin/semantic-enjin-theme v0.5.4
+	github.com/go-enjin/starter-apt-enjin v0.0.0-20231206202719-3ce046bb5e7b
 )
 
 require (
@@ -107,12 +107,12 @@ require (
 	github.com/puzpuzpuz/xsync/v2 v2.5.1 // indirect
 	github.com/rivo/uniseg v0.4.2 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
-	github.com/samber/lo v1.38.1 // indirect
+	github.com/samber/lo v1.39.0 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/spkg/zipfs v0.7.1 // indirect
 	github.com/tdewolff/parse/v2 v2.7.6 // indirect
 	github.com/tg123/go-htpasswd v1.2.1 // indirect
-	github.com/urfave/cli/v2 v2.25.7 // indirect
+	github.com/urfave/cli/v2 v2.26.0 // indirect
 	github.com/x-cray/logrus-prefixed-formatter v0.5.2 // indirect
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
 	github.com/yookoala/realpath v1.0.0 // indirect
